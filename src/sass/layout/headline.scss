@@ -1,0 +1,23 @@
+@import '../components/button';
+
+.headline {
+    padding: 100px 0px 32px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__content_container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    &__content_block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 50px;
+    }
+    &__image_block img {
+        width: 100%;
+    }
+}

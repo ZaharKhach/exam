@@ -1,0 +1,50 @@
+@import "../components/logo";
+@import "../components/title";
+
+.footer {
+  padding: 170px 0px 50px 0px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 70px;
+  }
+  &__content_block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    max-width: 270px;
+  }
+  &__icons_block {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+  }
+  &__icon_wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+  }
+  &__icon {
+    width: 100%;
+  }
+  &__items_block {
+    display: flex;
+    gap: 95px;
+    flex-wrap: wrap;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 50px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 400;
+  }
+}

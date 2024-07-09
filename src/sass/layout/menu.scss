@@ -1,0 +1,33 @@
+@import '../components/logo';
+
+.menu {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    &__nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px 20px 0px;
+    }
+
+
+
+    &__items_block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 55px;
+    }
+    &__item {
+        font-weight: 900;
+        cursor: default;
+    }
+    &__item:hover {
+        cursor: pointer;
+    }
+    &__item_link {
+        text-decoration: none;
+        color: black;
+    }
+}

@@ -4,59 +4,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,400;0,500;0,700;1,300&display=swap"
-        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <title>SmartRun</title>
+    <script defer src="./js/script.js"></script>
+    <title>Exam</title>
 </head>
 
 <body>
-    <section class="promo__section">
-        <div class="promo">
+
+    <header class="menu">
             <div class="container">
-                <header class="header">
-                    <a href="#" class="header__logo">
-                        <img src="icons/logo.png" alt="">
-                    </a>
-                    <div class="header__official">
-                        Официальный представитель
-                        <span>Garmin, Polar, Suunto</span>
+                <nav class="menu__nav">
+                    <div class="logo_block">
+                        <span class="logo">A+</span>
+                        <div class="logo_text">Studio</div>
                     </div>
-                    <div class="header__contacts">
-                        <a href="tel:+380668229901" class="header__phone">+380 (66) 822 99 01</a>
-                        <button class="button">заказать звонок</button>
+                    <ul class="menu__items_block">
+                        <li class="menu__item">
+                            <a class="menu__item_link" href="." rel="home">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item_link" href="." rel="What We Do">What We Do</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item_link" href="." rel="Service">Service</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item_link" href="." rel="Project">Project</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item_link" href="." rel="Blog">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__item_link" href="." rel="Contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
                     </div>
-                </header>
-                <div class="promo__wrapper">
-                    <h1 class="promo__title">Подбор пульсометра</h1>
-                    <h2 class="promo__subtitle">с учётом Вашего уровня подготовки</h2>
-                    <div class="promo__icons">
-                        <div class="promo__icon">
-                            <img src="icons/header_timer.png" alt="">
-                            <span>Время подбора:<br />10 минут</span>
+                </nav>
+
+            </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="headline">
+            <div class="headline__content_container">
+                <div class="headline__content_block">
+                    <div class="title">A Digital Product Agency</div>
+                    <div class="caption">
+                        Leading digital agency with solid design and development expertise. We build readymade websites,
+                        mobile applications, and elaborate online business services.
+                    </div>
+                    <button class="button">
+                        Contact Now
+                    </button>
+                </div>
+            </div>
+            <div class="headline__image_block">
+                <img src="./images/agancy_image.jpg" alt="agancy image">
+            </div>
+        </section>
+
+        <section class="client">
+            <div class="container">
+                <div class="client__wrapper">
+                    <div class="client__content_block">
+                        <div class="title">Our Client</div>
+                        <div class="caption">Several selected clients, who already believe in our service.</div>
+                    </div>
+                    <div class="client__icons_block">
+                        <div class="client__icon_wrapper">
+                            <img class="client__icon" src="./icons/Google.svg" alt="">
                         </div>
-                        <div class="promo__icon">
-                            <img src="icons/header_delivery.png" alt="">
-                            <span>Бесплатная<br>доставка</span>
+                        <div class="client__icon_wrapper">
+                            <img class="client__icon" src="./icons/Airbnb.svg" alt="">
                         </div>
-                        <div class="promo__icon">
-                            <img src="icons/header_messages.png" alt="">
-                            <span>Ответим <br />на все вопросы</span>
+                        <div class="client__icon_wrapper">
+                            <img class="client__icon" src="./icons/Uber_Eats.svg" alt="">
+                        </div>
+                        <div class="client__icon_wrapper">
+                            <img class="client__icon" src="./icons/Amazon.svg" alt="">
                         </div>
                     </div>
-                    <button class="button button__main">заказать кОНСУЛЬТАЦИЮ</button>
-                    <div class="promo__link">
-                        или
-                        <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="help">
+            <div class="container">
+                <div class="help__wrapper">
+                    <div class="help__content_block">
+                        <div class="title">How can we help your Business ?</div>
+                        <div class="caption">We build readymade websites, mobile applications, and elaborate online
+                            business services.</div>
+                    </div>
+                    <div class="help__help-varians_block">
+                        <div class="help__item_block">
+                            <div class="help__icon_wrapper">
+                                <img class="help__icon" src="./icons/box-search.png" alt="" />
+                            </div>
+                            <div class="title-medium">Business Idea Planning</div>
+                            <div class="caption-medium">We present you a proposal and discuss niffty-gritty like</div>
+                        </div>
+                        <div class="help__item_block">
+                            <div class="help__icon_wrapper">
+                                <img class="help__icon" src="./icons/empty-wallet.png" alt="" />
+                            </div>
+                            <div class="title-medium">Financial Planning System</div>
+                            <div class="caption-medium">Protocols apart from aengage models, pricing billing</div>
+                        </div>
+                        <div class="help__item_block">
+                            <div class="help__icon_wrapper">
+                                <img class="help__icon" src="./icons/code.png" alt="" />
+                            </div>
+                            <div class="title-medium">Development Website and App</div>
+                            <div class="caption-medium">Communication protocols apart from engagement models</div>
+                        </div>
+                        <div class="help__item_block">
+                            <div class="help__icon_wrapper">
+                                <img class="help__icon" src="./icons/chart-square.png" alt="" />
+                            </div>
+                            <div class="title-medium">Market Analysis Project</div>
+                            <div class="caption-medium">Protocols apart from aengage models, pricing billing</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__content_block">
+                    <div class="logo_block">
+                        <span class="logo">A+</span>
+                        <div class="logo_text">Studio</div>
+                    </div>
+                    <div class="caption-small">
+                        Leading digital agency with solid design and development expertise.
+                        We build readymade websites, mobile applications, and elaborate online business services.
+                    </div>
+                    <div class="footer__icons_block">
+                        <div class="footer__icon_wrapper">
+                            <img class="footer__icon" src="./icons/facebook.svg" alt="">
+                        </div>
+                        <div class="footer__icon_wrapper">
+                            <img class="footer__icon" src="./icons/twitter.svg" alt="">
+                        </div>
+                        <div class="footer__icon_wrapper">
+                            <img class="footer__icon" src="./icons/linkedin.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__items_block">
+                    <div class="footer__item">
+                        <div class="title-small">What We Do</div>
+                        <ul class="footer__list">
+                            <li class="footer__list_item">Web Design </li>
+                            <li class="footer__list_item">App Design</li>
+                            <li class="footer__list_item">Social Media Manage</li>
+                            <li class="footer__list_item">Market Analysis Project</li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="title-small">Company</div>
+                        <ul class="footer__list">
+                            <li class="footer__list_item">About Us</li>
+                            <li class="footer__list_item">Career</li>
+                            <li class="footer__list_item">Become Investor</li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="title-small">Support</div>
+                        <ul class="footer__list">
+                            <li class="footer__list_item">FAQ</li>
+                            <li class="footer__list_item">Policy</li>
+                            <li class="footer__list_item">Business</li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <div class="title-small">Contact</div>
+                        <ul class="footer__list">
+                            <li class="footer__list_item">WhatsApp</li>
+                            <li class="footer__list_item">Support 24</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    
+    </footer>
 
 </body>
 
