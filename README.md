@@ -1,6 +1,6 @@
 How to open
 -----------------------
-1) npm start
+1) npm install
 2) gulp
 
 -----------------------
